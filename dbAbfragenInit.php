@@ -8,8 +8,8 @@ class DB
     {
 
         try {
-            $datasource = "mysql:host=localhost;dbname=vhsgm";
-            return new PDO($datasource, "root", "");
+            $datasource = "mysql:host=sql201.infinityfree.com;dbname=if0_35709365_Kurse";
+            return new PDO($datasource, "if0_35709365", "Oznerol13");
         } catch (PDOException $exc) {
             echo $exc->getTraceAsString();
             die();
